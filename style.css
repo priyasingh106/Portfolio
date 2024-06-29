@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat","serif";
+}
+header{
+    /* color: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(216, 225, 44);
+    padding: 10px;
+    
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 300px;;
+
+}
+ul a{
+    margin-right: 30px;;
+    font-weight:700;
+    padding: 10px 20px;
+    border: 1px solid rgb(216, 225, 44);
+    text-decoration: none;
+}
+ul a:hover{
+    border: 1px solid #000000;
+    border-radius: 14px;;
+}
+h1{
+    font-size: 30px;;
+}
+#hero-section{
+    padding: 100px;
+    display: flex;
+    margin: 50px 150px 50px 150px ;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 4px 10px 4px rgb(205, 203, 203);
+}
+#hero-section img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;;
+    margin-right: 100px;;
+}
+#about{
+    color: #fff;
+    background-color: #000;
+    width: 500px;
+    padding: 20px;
+    height:  300px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 100px; */
+    line-height: 30px;;
+}
+#milestone img{
+    height: 200px;
+}
+#milestone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;;
+    background-color: rgb(235, 236, 237);
+    padding: 50px 0px;
+}
+#milestone p, #graphic p{
+    font-size: 30px;;
+    margin-bottom: 50px;
+    font-weight: 500;
+    border-bottom: 1px solid black;;
+}
+#milestone div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#milestone div img{
+    margin-right: 80px;;
+}
+#graphic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+#graphic-designing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#graphic img{
+    height: 400px;
+    width: 400px;
+    margin-right: 20px;;
+}
+
+#html-css{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#html img{
+    height: 400px;
+    width: 400px;
+}
+#html img{
+    margin-right: 20px;;
+}
